@@ -16,6 +16,9 @@ class TestFunctions(unittest.TestCase):
     def test_add_values_two(self):
         self.assertEqual(15, add_multiple_values(1,2,3,4,5))
 
+    def test_add_values_three(self):
+        self.assertEqual(20, add_multiple_values(5,5,5,5))
+
     def test_full_name(self):
         self.assertEqual("Doe, John", get_full_name("John", "Doe"))
 
